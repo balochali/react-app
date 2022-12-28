@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.wrap{
+  width: 70%;
+  position: relative;
+}
+.search {
+  position: relative;
+  display: flex;
+
+}
+
+.image{
+  width: 25%;
+  height: 35%;
+}
+.textData{
+  margin-left: 10px;
+}
+.card{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+  width: 90%;
+  margin-left: 8px;
+}
+.movies{
+  margin-left: 17%;
+
+}
+
+.searchTerm {
+  margin-left: 17%;
+  height: 30px;
+  width: 75%
+}
+
+.searchTerm:focus{
+  color: black;
+}
